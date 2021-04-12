@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+.navbars {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.centerbar {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 ,h4 {
+    margin-left: 20px;
+    font-size: inherit;
+    text-align: center;
+}
+#Shop{
+    text-align: center;
+    margin: 50px;
+}
+.cartCont {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  text-align: center;
+  margin: 10px ;
+  clear: both;
+}
+
+.item:hover i {
+
+cursor: pointer;
+}
+.remes{
+    display: none;
+    background-color: red;
+    left: 45px;
+    margin-top: 20px;
+    position: absolute;
+    height: 20px;
+}
+.item:hover button .remes{
+    display:inline-block ; 
+}
+.full-heart  {
+    color: red;
+    font-size: large;
+}
+.quantityElement{
+    text-align: right;
+    width: 20%;
+}
+.price{
+    color: rgb(28, 219, 28);
+    display: flex;
+    justify-content: center;
+
+}
+.rem{
+    margin-right: 20px;
+}
+
+.rating{
+    color: gold;
+}
+
+.purchase{
+    display: flex;
+    align-items: center;
+    align-self: right;    
+    flex-direction: column-reverse;
+    }
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 250px;
+
+}
+
+.base{
+    display: flex;
+    flex-direction: column;
+}
